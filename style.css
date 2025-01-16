@@ -1,0 +1,47 @@
+/* 基本樣式設定 */
+body {
+  font-family: Arial, sans-serif; /* 設定全局字體 */
+  margin: 0;                     /* 清除默認邊距 */
+  padding: 0;                    /* 清除默認內距 */
+  background-color: #f4f4f4;     /* 設置背景顏色 */
+  color: #333;                   /* 設置文字顏色 */
+  text-align: center;            /* 文字置中 */
+}
+
+/* 頭部樣式 */
+header {
+  background-color: #333;        /* 頭部背景顏色 */
+  color: #fff;                   /* 文字顏色為白色 */
+  padding: 10px 0;               /* 上下內距 */
+}
+
+/* 段落樣式 */
+p {
+  font-size: 18px;               /* 字體大小 */
+  line-height: 1.6;              /* 行高 */
+}
+
+/* 按鈕樣式 */
+button {
+  background-color: #007BFF;     /* 按鈕背景顏色 */
+  color: #fff;                   /* 按鈕文字顏色 */
+  border: none;                  /* 移除邊框 */
+  padding: 10px 20px;            /* 內距 */
+  font-size: 16px;               /* 字體大小 */
+  border-radius: 5px;            /* 圓角效果 */
+  cursor: pointer;               /* 滑鼠指針改為手型 */
+}
+
+button:hover {
+  background-color: #0056b3;     /* 滑鼠懸停時的背景顏色 */
+}
+
+/* 頁腳樣式 */
+footer {
+  background-color: #333;        /* 底部背景顏色 */
+  color: #fff;                   /* 文字顏色 */
+  padding: 10px 0;               /* 上下內距 */
+  position: fixed;               /* 固定在底部 */
+  bottom: 0;
+  width: 100%;                   /* 滿寬 */
+}
